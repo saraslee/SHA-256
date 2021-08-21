@@ -1,25 +1,3 @@
-"""
-Sara Lee
-CS3C Final Project
-SHA 256 Algorithm implemented in Python following algorithm provided by
-https://csrc.nist.gov/csrc/media/publications/fips/180/4/final/documents/fips180-4-draft-aug2014.pdf
-
-Link to final presentation slides:
-https://docs.google.com/presentation/d/18nNsViKdaeZT40VWtH7bFTEZ-1E0iF4NzJYYXBOiNFE/edit?usp=sharing
-
-For my final project, I aimed to code the SHA-256 hash function in python using object oriented programming methods.
-My goal for this project was to organize SHA-256 into user-friendly classes.
-I created class PreProcess data, which contains the three steps provided by NIST to preprocess a string - padding,
-parsing, and generating hash values and round constants - in user friendly methods.
-I created class SHA256 which calls class PreProcessData to initialize the preprocessed data, parses it, and runs
-the message block through block decomposition algorithm to get the message schedule.  Then, using the generated
-message schedule, hash value constants, and round constants, the hash is generated in generate_hash() following
-algorithm provided by NIST.  Supporting functions for s1, s0, ch, and maj are also defined in class SHA256.
-Currently, my SHA256 hash function works for strings with binary value less than 512 bits.
-
-"""
-
-
 import math
 import copy
 
