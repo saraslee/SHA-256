@@ -6,7 +6,7 @@ class PreProcessData:
     """
     Taken from NIST:
     Preprocessing consists of three steps: padding the message, M (Sec. 5.1), parsing the message into message blocks
-    (Sec. 5.2), and setting the initial hash value, H(0) (Sec. 5.3).
+    (Sec. 5.2), and setting the initial hash value, H(0) (Sec. 5.3)
 
     for each block: 64 words of 32 bits each are constructed as follows:
     """
