@@ -1,7 +1,6 @@
 '''
 Sara Lee
-CS3C
-Unit test cases for methods in SHA256 Final Project and performance tests
+Unit test cases for methods in SHA256.py and performance tests
 I used sample data from:
 https://qvault.io/cryptography/how-sha-2-works-step-by-step-sha-256/ to verify data
 to compare and verify each step for "hello world"
